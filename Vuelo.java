@@ -51,14 +51,7 @@ public class Vuelo {
         System.out.println("---------------------------------------------");
         System.out.println("Destino: " + destino);
         System.out.println("---------------------------------------------");
-        System.out.println("Asientos disponibles" + asientosDisponibles);
+        System.out.println("Asientos disponibles: " + asientosDisponibles);
         System.out.println("---------------------------------------------");
     }
-
-
-
-
-    
-
-
 }
