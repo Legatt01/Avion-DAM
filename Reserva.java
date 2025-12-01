@@ -1,6 +1,7 @@
 public class Reserva {
     private String nombrePasajero;
     private String numeroPasaporte;
+    private String codigoReserva;
     private Vuelo vuelo;
 
     public Reserva(String nombrePasajero, String numeroPasaporte, Vuelo vuelo){
@@ -20,6 +21,12 @@ public class Reserva {
     public Vuelo getVuelo() {
         return vuelo;
     }
+    public String getCodigoReserva(){
+        return codigoReserva;
+    }
+    public void setCodigoReserva(String codigoReserva) {
+        this.codigoReserva = codigoReserva;
+    }
 
     public void mostrarInformacion(){
         System.out.println("-----------INFORMACION DE PASAJERO-----------");
@@ -38,4 +45,6 @@ public class Reserva {
         System.out.println("Asientos disponibles" + getVuelo().getAsientosDisponibles());
         System.out.println("---------------------------------------------");
     }
+
+
 }
