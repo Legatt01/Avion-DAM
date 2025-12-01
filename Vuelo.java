@@ -43,6 +43,10 @@ public class Vuelo {
             return "No quedan asientos disponibles para reservar.";
         }
     }
+
+    public void incrementarAsientos(){
+    this.asientosDisponibles++;
+}
     public void informacionVuelo(){
         System.out.println("---------------------------------------------");
         System.out.println("Numero de vuelo: " + numeroVuelo);
